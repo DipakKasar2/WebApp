@@ -7,7 +7,7 @@ spec:
   source:
       git:
         ref: master
-        uri: https://github.com/DipakKasar2/WebApp
+        uri: https://github.com/DipakKasar2/WebApp.git
       type: Git
   strategy:
       dockerStrategy:
