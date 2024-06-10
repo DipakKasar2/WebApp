@@ -1,5 +1,6 @@
 #FROM ubuntu:16.04
-FROM python:3.9-slim
+#FROM python:3.9-slim
+FROM openshift/python:3.9-ubi9
 
 #RUN apt-get update && apt-get install -y python python-pip
 WORKDIR /usr/src/app
